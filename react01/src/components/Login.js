@@ -20,7 +20,7 @@ export default class Login extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     let { username, password} = this.state;
-    this.props.isLogin(username === 'shaadi' && password === '123')
+    this.props.isLogin(username === 'test' && password === '123')
   }
 
   render() {
